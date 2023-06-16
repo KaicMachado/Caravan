@@ -13,6 +13,36 @@
 </head>
 
 <body>
+  <!-- Modal -->
+  <div class=" modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginTitutlo" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalLoginTitulo">Entre na Sua Conta</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 ">
+              <a href="#" class="btn btn-primary mx-0">Entrar na Conta</a>
+              <div id="emailHelp" class="form-text">Esqueceu sua senha? <a href="#">Clique Aqui</a></div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Nav -->
   <nav class="navbar px-2 py-3 navbar-expand-md bg-light fixed-top shadow-sm ">
     <a href="index.html" class="navbar-brand"><img src="imgs/caravan.svg" alt="Caravan">
     </a>
@@ -41,7 +71,7 @@
           <a href="contato.html" class="nav-link">Contato</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Login</a>
+          <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
         </li>
         <li class="nav-item">
           <a href="inscricao.html" class="btn btn-outline-primary ms-md-2">Inscreva-se</a>
@@ -50,6 +80,7 @@
     </div>
   </nav>
 
+  <!-- Main -->
   <section class="container-fluid">
     <div class="row bg-dark text-white">
       <div class="col-lg-7 p-0">
@@ -244,6 +275,8 @@
         </div>
 
   </section>
+
+  <!-- Footer -->
   <footer class="bg-dark text-white">
     <div class="container py-4">
       <div class="row">
