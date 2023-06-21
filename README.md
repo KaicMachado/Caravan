@@ -1,7 +1,7 @@
 ## Caravan
 <h1 align="center"> Website created for a travel agency, made with Bootstrap </h1>
 
-![127 0 0 1_5500_index html (5)](https://user-images.githubusercontent.com/108227456/235267133-a25de6a0-a5d7-4bdc-89d1-e0d7b8ba5023.png)
+![caravan-readme](https://github.com/KaicMachado/Caravan-bootstrap/assets/108227456/ac104fa5-c942-4aca-890c-b25a67d8c3e1)
 
 ## <h2 align="center">Fully responsive for mobile phones and smaller screens </h2>
 
